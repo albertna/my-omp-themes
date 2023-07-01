@@ -4,31 +4,6 @@
   "blocks": [
     {
       "alignment": "left",
-      "type": "prompt",
-      "segments": [
-        {
-          "type": "text",
-          "style": "plain",
-          "foreground": "#303030",
-          "template": "\u276f"
-        }
-      ]
-    },
-    {
-      "alignment": "right",
-      "type": "prompt",
-      "segments": [
-        {
-          "type": "text",
-          "style": "plain",
-          "foreground": "#303030",
-          "template": "\u276f"
-        }
-      ],
-      "filler": "<#303030>\u276f</>"
-    },
-    {
-      "alignment": "left",
       "newline": true,
       "segments": [
         {
