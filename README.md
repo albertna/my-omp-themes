@@ -15,7 +15,7 @@ In `Microsoft.Powershell_profile.ps1`:
 ```Powershell
 $env:VIRTUAL_ENV_DISABLE_PROMPT=1
 
-oh-my-posh init pwsh --config '~/Documents/WindowsPowerShell/omp_themes/blocks.json' | Invoke-Expression
+oh-my-posh init pwsh --config '~/Documents/WindowsPowerShell/omp_themes/fluent.json' | Invoke-Expression
 # Enable-PoshTransientPrompt
 
 Import-Module posh-git
