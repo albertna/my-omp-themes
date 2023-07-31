@@ -35,6 +35,7 @@
           ],
           "properties": {
             "branch_icon": "<p:light-grey>on</> \uf126 ",
+            "tag_icon": "<p:light-grey>on</> \uf412 ",
             "fetch_stash_count": true,
             "fetch_status": true,
             "fetch_upstream_icon": false
