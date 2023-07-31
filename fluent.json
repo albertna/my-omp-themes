@@ -60,6 +60,12 @@
           }
         },
         {
+          "type": "python",
+          "style": "plain",
+          "foreground": "lightGreen",
+          "template": "<p:light-grey>with</> <#306998></> <#FFE873>{{ .Full }}</>{{ if .Venv }}<#FFD43B>({{ .Venv }})</>{{ end }}{{ if .Error }}<red>{{ .Error }}</>{{ end }} "
+        },
+        {
           "foreground": "#00C5C7",
           "properties": {
             "time_format": "15:04:05"
