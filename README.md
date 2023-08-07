@@ -16,7 +16,7 @@ In `Microsoft.Powershell_profile.ps1`:
 $env:VIRTUAL_ENV_DISABLE_PROMPT=1
 
 Import-Module PSReadLine
-Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionSource HistoryAndPlugin
 
 Import-Module posh-git
 $env:POSH_GIT_ENABLED = $true
